@@ -1,0 +1,81 @@
+{
+  "groups": {
+    "keyGen ML-KEM-512": {
+      "pass": 25,
+      "total": 25,
+      "failed": []
+    },
+    "keyGen ML-KEM-768": {
+      "pass": 25,
+      "total": 25,
+      "failed": []
+    },
+    "keyGen ML-KEM-1024": {
+      "pass": 25,
+      "total": 25,
+      "failed": []
+    },
+    "encapsulation ML-KEM-512": {
+      "pass": 25,
+      "total": 25,
+      "failed": []
+    },
+    "encapsulation ML-KEM-768": {
+      "pass": 25,
+      "total": 25,
+      "failed": []
+    },
+    "encapsulation ML-KEM-1024": {
+      "pass": 25,
+      "total": 25,
+      "failed": []
+    },
+    "decapsulation ML-KEM-512": {
+      "pass": 10,
+      "total": 10,
+      "failed": []
+    },
+    "decapsulation ML-KEM-768": {
+      "pass": 10,
+      "total": 10,
+      "failed": []
+    },
+    "decapsulation ML-KEM-1024": {
+      "pass": 10,
+      "total": 10,
+      "failed": []
+    },
+    "decapsulationKeyCheck ML-KEM-512": {
+      "pass": 10,
+      "total": 10,
+      "failed": []
+    },
+    "encapsulationKeyCheck ML-KEM-512": {
+      "pass": 10,
+      "total": 10,
+      "failed": []
+    },
+    "decapsulationKeyCheck ML-KEM-768": {
+      "pass": 10,
+      "total": 10,
+      "failed": []
+    },
+    "encapsulationKeyCheck ML-KEM-768": {
+      "pass": 10,
+      "total": 10,
+      "failed": []
+    },
+    "decapsulationKeyCheck ML-KEM-1024": {
+      "pass": 10,
+      "total": 10,
+      "failed": []
+    },
+    "encapsulationKeyCheck ML-KEM-1024": {
+      "pass": 10,
+      "total": 10,
+      "failed": []
+    }
+  },
+  "pass": 240,
+  "total": 240
+}

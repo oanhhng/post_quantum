@@ -1,0 +1,68 @@
+{
+  "port": 5300,
+  "configs": [
+    {
+      "mode": "x25519",
+      "param": "-",
+      "streams": [
+        0,
+        53
+      ],
+      "warmup_streams": 3
+    },
+    {
+      "mode": "mlkem",
+      "param": "ML-KEM-512",
+      "streams": [
+        53,
+        106
+      ],
+      "warmup_streams": 3
+    },
+    {
+      "mode": "hybrid",
+      "param": "ML-KEM-512",
+      "streams": [
+        106,
+        159
+      ],
+      "warmup_streams": 3
+    },
+    {
+      "mode": "mlkem",
+      "param": "ML-KEM-768",
+      "streams": [
+        159,
+        212
+      ],
+      "warmup_streams": 3
+    },
+    {
+      "mode": "hybrid",
+      "param": "ML-KEM-768",
+      "streams": [
+        212,
+        265
+      ],
+      "warmup_streams": 3
+    },
+    {
+      "mode": "mlkem",
+      "param": "ML-KEM-1024",
+      "streams": [
+        265,
+        318
+      ],
+      "warmup_streams": 3
+    },
+    {
+      "mode": "hybrid",
+      "param": "ML-KEM-1024",
+      "streams": [
+        318,
+        371
+      ],
+      "warmup_streams": 3
+    }
+  ]
+}

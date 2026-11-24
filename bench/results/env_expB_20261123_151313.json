@@ -1,0 +1,19 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+  "cpu_count": 12,
+  "python": "3.13.7",
+  "kyber-py": "1.2.0",
+  "cryptography": "50.0.2",
+  "liboqs-python": "not installed",
+  "openssl_cli": "OpenSSL 4.1.0 23 Oct 2026 (Library: OpenSSL 4.1.0 23 Oct 2026)",
+  "tshark": "n/a",
+  "experiment": "B",
+  "backend": "kyber-py",
+  "warmup": 20,
+  "iters": 200,
+  "runs": 5,
+  "rsa": true,
+  "rsa_bits": 2048
+}

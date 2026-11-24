@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+*.pem
+*.key
+.pytest_cache/
+bench/results/*.csv
+bench/results/*.png
+report/*.pcapng

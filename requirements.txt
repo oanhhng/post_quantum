@@ -1,0 +1,6 @@
+kyber-py==1.2.0
+cryptography>=42.0
+matplotlib>=3.8
+pandas>=2.0
+pytest>=8.0
+# Optional native backend (build liboqs first): liboqs-python
